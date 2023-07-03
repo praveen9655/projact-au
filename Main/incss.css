@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+}
+.main1{
+    background: url(/img/mi22.jpg);
+    background-position: center;
+    background-size: cover;
+}
