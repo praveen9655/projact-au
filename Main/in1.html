@@ -11,36 +11,36 @@
 
 </head>
 <body>
-    <div class="navbar navbar-expand-lg bg-primary text-light">
+    <div class="navbar navbar-expand-lg text-light" id="navbar">
         <div class="container-fluid">
-            <b>Project AU</b>
+            <b class="h3">Project AU</b>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#manu1">
                 <img src="/svg/three.svg" width="25px" alt="">  
             </button>
             <div class="collapse navbar-collapse" id="manu1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"> <a href="" class="nav-link text-light">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link text-light">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link text-light">Contact</a></li>
-                    <li class="nav-item"><a href="" class="nav-link text-light">Feedback</a></li>                
+                    <li class="nav-item"> <a href="" class="nav-link text-light mx-3">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-light mx-3">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-light mx-3">Contact</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-light mx-3">Feedback</a></li>                
                 </ul>
             </div>
         </div>
     </div>
-    <section class="main1">
+    <section class="main1 h-100">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 border">
-    
+            <div class="row my-5">
+                <div class="col-md-6 col-sm-0 ">
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center border ">
-                    <div class="card bg-light my-5 ">
-                        <div class="card-body text-center">
-                            <img src="/img/AU.png" class="img-fluid mt-5" alt="" width="130px" height="100px">
-                            <h1>WELCOME</h1>
-                            <p>Project-AU made for Anna University students</p>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="bg-light  form1 shadow">
+                        <div class=" card-body p-sm-2 p-md-5 text-center">
+                            <img src="/img/AU.png" class="img-fluid mt-md-2" alt="" width="130px" height="100px">
+                            <h1 class="mt-3 ">WELCOME</h1>
+                            <p class="mt-3 bold">Project-AU made for Anna University students</p>
                             <div class="but">
-                                <button class="btn btn-primary mt-3">LOGIN</button>
+                                <button class="btn mt-3 shadow">LOGIN</button> <br>
+                                <button class="btn mt-3 shadow">SIGN UP</button>
                             </div>
                             <p class="mt-3"><a href="">Help</a> I <a href="">Feedback</a></p>                    
                         </div>
@@ -49,5 +49,28 @@
             </div>
         </div>
     </section>
+    <div class="container-fluid">
+        <footer>
+            <div class="row">
+                <div class="col bg-secondary text-light text-center p-3">
+                    <h2>Project-AU</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Corporis, vel! Nihil vitae eaque quibusdam odio dolorem necessitatibus minus corporis cumque.<br> Inventore explicabo eveniet nobis minus architecto quam velit et nostrum.</p>
+                </div>
+            </div>
+            <div class="row bg-dark text-light pt-2">
+                <div class="col-md-6 order-1 d-flex justify-content-center justify-content-md-start">
+                    <p>copyright &copy;2023 <a href=”#”>DevPraveen</a>  </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-end order-sm-2">
+                    <ul class=" d-flex">
+                        <li class="list-unstyled"><a href="#h1" class="text-decoration-none text-light mx-3 ">Home</a></li>
+                        <li class="list-unstyled"><a href=”” class="text-decoration-none text-light mx-3">About</a></li>
+                        <li class="list-unstyled"><a href=”” class="text-decoration-none text-light mx-3">Contact</a></li>
+                        <li class="list-unstyled"><a href=”” class="text-decoration-none text-light ">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

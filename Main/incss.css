@@ -1,10 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    background-color: #6E3CBC;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 section{
-    min-height: 95vh;
     display: flex;
     justify-content: center;
 }
@@ -12,4 +17,16 @@ section{
     background: url(/img/mi22.jpg);
     background-position: center;
     background-size: cover;
+}
+.form1{
+    border-radius: 30px;
+}
+.but button{
+    height: 50px;
+    width: 150px;
+    background-color: #6E3CBC;
+    border: 0px;
+    border-radius: 20px;
+    color: #f7f7f7;
+    font-weight: bolder;
 }
