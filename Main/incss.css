@@ -10,6 +10,7 @@ body{
     z-index: 10;
 }
 section{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -29,4 +30,34 @@ section{
     border-radius: 20px;
     color: #f7f7f7;
     font-weight: bolder;
+}
+.r1{
+    background-color: #d4d4d481;
+    border: 2px #D9D9D9 solid;
+    border-radius: 20px;
+}
+.c1{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    border: #6E3CBC 2px solid;
+    overflow: hidden;
+}
+.cb2{ background-color: #6E3CBC;}
+.btn1{
+    height: 50px;
+    width: 100%;
+    margin-top:20px ;
+    border: 0px;
+    border-radius: 20px;
+    color: #6E3CBC;
+    font-weight: bolder;
+
+}
+.inner{
+    overflow: hidden;
+    transition: all 1s;
+}
+.inner:hover{
+    transform: scale(1.2);
+    transition: all 1s;
 }
